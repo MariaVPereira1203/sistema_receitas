@@ -97,29 +97,30 @@ footer {
 }
 
 /* css da página index */
-figure{
+figure {
     text-align: center;
     background-color: #3D1B24;
     color: #FFF8F0;
     font-weight: bold;
-       
+
 }
 
-figure a{
+figure a {
     text-decoration: none;
     color: #FFF8F0;
 }
 
-figcaption{
+figcaption {
     padding: 4px;
 }
-#receitas{
+
+#receitas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
 }
 
-#receitas img{
+#receitas img {
     width: 100% !important;
     height: 170px;
     margin: 0;
