@@ -4,12 +4,12 @@
 }
 
 header {
-    background-color: #302019;
+    background-color: #4B1F2A;
     padding: 9px;
 }
 
 nav a {
-    color: #FFF9EF;
+    color: #FFF8F0;
     text-decoration: none;
 }
 
@@ -17,11 +17,11 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 40px;
-    padding: 0;
+    padding: 0 50px;
 }
 
 main {
-    background-color: #F7EBDD;
+    background-color: #FFF8F0;
     width: 1000px;
     margin: 0 auto;
     padding: 0 10px;
@@ -31,11 +31,11 @@ main {
 
 body {
     margin: 0 auto;
-    background-color: #956044;
+    background-color: #E8D8CE;
 }
 
 h1 {
-    color: #593624;
+    color: #5A2633;
     text-align: center;
     text-transform: uppercase;
     font-size: 40px;
@@ -47,50 +47,82 @@ li {
     margin-bottom: 10px;
 }
 
-h2 {
-    color: #70432E;
+h2,
+h3 {
+    color: #7A3E46;
 }
+
 
 table {
     width: 60%;
     margin: 0 auto;
     margin-bottom: 20px;
-    border-color: #000000;
+    border-color: #C9A66B;
     border-collapse: collapse;
 }
 
 th {
-    background-color: #69432d;
-    color: #FFF8ED;
+    background-color: #6B303B;
+    color: #FFF8F0;
     padding: 5px;
     font-weight: normal;
-    border: 1px solid #000000;
+    border: 1px solid #C9A66B;
 }
 
 td {
     padding: 5px;
     text-align: center;
-    border: 1px solid #000000;
+    border: 1px solid #D8C3A5;
 }
 
 img,
 iframe {
     width: 450px;
     height: 300px;
-    border: 1px solid #D5A477;
+    border: 1px solid #C9A66B;
     padding: 5px;
-    border-radius: 2%;
     margin: 0 auto;
     display: block;
     margin-bottom: 20px;
-    box-shadow: 0px 0px 20px gray;
+    box-shadow: 0px 0px 20px rgba(75, 31, 42, 0.18);
 }
 
 footer {
-    background-color: #302019;
+    background-color: #3D1B24;
     padding: 15px;
     text-align: center;
-    color: #FFF8ED;
+    color: #FFF8F0;
 
 
 }
+
+/* css da página index */
+figure{
+    text-align: center;
+    background-color: #3D1B24;
+    color: #FFF8F0;
+    font-weight: bold;
+       
+}
+
+figure a{
+    text-decoration: none;
+    color: #FFF8F0;
+}
+
+figcaption{
+    padding: 4px;
+}
+#receitas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#receitas img{
+    width: 100% !important;
+    height: 170px;
+    margin: 0;
+}
+
+/* final do css index */
